@@ -1,0 +1,16 @@
+
+C:\Users\kalaiyarasan.m\Downloads\sapcc-2.16.2-windows-x64>go.bat
+java version "21.0.2" 2024-01-16 LTS
+Java(TM) SE Runtime Environment (build 21.0.2+13-LTS-58)
+Java HotSpot(TM) 64-Bit Server VM (build 21.0.2+13-LTS-58, mixed mode, sharing)
+JAVA version is not correct. The supported versions are 1.8, 11, and 17.
+
+
+
+SQL=========================
+SELECT * FROM beststore.products;
+desc beststore.products;
+insert into beststore.products( name, brand, category, price, description, image_file_name, create_at	) VALUES 
+('iphone 12', 'Apple','Phones',25000,'Apple iPhone 12, 64 Gb , Black -Unlocked and compatible with any
+carrier of choice on GSM and CDMA networks. Tested for battery health and guaranteed to come with a battery that exceeds 90% of original capacity.',
+'OIP.jpg',current_timestamp())
